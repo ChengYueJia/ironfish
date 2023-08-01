@@ -21,7 +21,7 @@ workspace = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bellperson = { git = "https://github.com/iron-fish/bellperson.git", branch = "blstrs", features = ["groth16"] }
+bellperson = { git = "https://github.com/iron-fish/bellperson.git", branch = "blstrs", features = ["groth16", "cuda"] }
 blake2s_simd = "1.0.0"
 blstrs = { version = "0.6.0", features = ["portable"] }
 byteorder = "1.4.3"
